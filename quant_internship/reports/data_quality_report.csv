@@ -1,0 +1,8 @@
+check,count,decision
+Missing values,0,No action needed
+Duplicate ticker-date rows,0,No action needed
+Invalid prices,0,No action needed
+Negative volume,0,No action needed
+Invalid OHLC rows,0,No action needed
+Extreme daily returns (>20%),19,Reviewed and retained
+Volume spikes (>5x 20-day average),21,Reviewed and retained
